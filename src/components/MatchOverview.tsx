@@ -41,7 +41,10 @@ const MatchOverview = () => {
           </div>
         </Card.Body>
         <Card.Footer>
-          <Text>23/03/2023, 15:30</Text>
+          <div className="flex w-full justify-between">
+            <Text>23/03/2023, 15:30 </Text>
+            <Text color="primary">Ascent, Haven, Split</Text>
+          </div>
         </Card.Footer>
       </Card>
     </div>

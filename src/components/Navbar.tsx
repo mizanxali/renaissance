@@ -12,7 +12,9 @@ const MyNavbar = () => {
       </Navbar.Brand>
       <Navbar.Content>
         <Navbar.Link href="/">Home</Navbar.Link>
-        <Navbar.Link href="/matches">Matches</Navbar.Link>
+        <Navbar.Link href="/matches">Schedule</Navbar.Link>
+        <Navbar.Link href="/match">Match</Navbar.Link>
+        <Navbar.Link href="/tournament">Tournament</Navbar.Link>
         <Navbar.Link href="/tournament/create">Create Tournament</Navbar.Link>
       </Navbar.Content>
       <Navbar.Content>
@@ -20,7 +22,6 @@ const MyNavbar = () => {
           Login
         </Navbar.Link>
         <Navbar.Item>
-          v
           <Button auto flat as={Link} href="#">
             Sign Up
           </Button>
