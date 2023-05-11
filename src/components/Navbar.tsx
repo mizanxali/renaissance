@@ -1,4 +1,5 @@
 import { Text, Navbar, Button } from "@nextui-org/react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,6 +7,12 @@ const MyNavbar = () => {
   return (
     <Navbar isBordered variant="sticky">
       <Navbar.Brand>
+        <Image
+          alt="renaissance"
+          src="https://media.discordapp.net/attachments/731001126228459571/1106238539458420807/logo_trans.png?width=1000&height=1000"
+          width={80}
+          height={80}
+        />
         <Text b color="inherit">
           Renaissance
         </Text>
